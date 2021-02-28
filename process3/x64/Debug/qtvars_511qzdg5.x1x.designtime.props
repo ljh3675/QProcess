@@ -1,0 +1,13 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <QtConfigStamp>msvc2017_64|core gui widgets</QtConfigStamp>
+<Qt_DEFINES_>UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB</Qt_DEFINES_>
+<Qt_INCLUDEPATH_>D:/QT/5.14.2/msvc2017_64/include;D:/QT/5.14.2/msvc2017_64/include/QtWidgets;D:/QT/5.14.2/msvc2017_64/include/QtGui;D:/QT/5.14.2/msvc2017_64/include/QtANGLE;D:/QT/5.14.2/msvc2017_64/include/QtCore</Qt_INCLUDEPATH_>
+<Qt_LIBS_>shell32.lib;D:\QT\5.14.2\msvc2017_64\lib\qtmaind.lib;D:\QT\5.14.2\msvc2017_64\lib\Qt5Cored.lib;D:\QT\5.14.2\msvc2017_64\lib\Qt5Guid.lib;D:\QT\5.14.2\msvc2017_64\lib\Qt5Widgetsd.lib</Qt_LIBS_>
+</PropertyGroup>
+  <ItemGroup>
+    <QtVar Include="Qt_DEFINES_"><Value>$(Qt_DEFINES_)</Value></QtVar>
+<QtVar Include="Qt_INCLUDEPATH_"><Value>$(Qt_INCLUDEPATH_)</Value></QtVar>
+<QtVar Include="Qt_LIBS_"><Value>$(Qt_LIBS_)</Value></QtVar>
+  </ItemGroup>
+</Project>
